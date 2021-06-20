@@ -1,0 +1,132 @@
+CSS
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#slider{
+    width: 30%;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider2{
+    width: 30%;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider3{
+    width: 30%;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider4{
+    width: 30%;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider5{
+    width: 30%;
+    height: 7px;
+    border-radius: 1px;
+}
+#slider6{
+    width: 30%;
+    height: 7px;
+    border-radius: 1px;
+}
+#value{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 23.5%;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 28.5%;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value3{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 34%;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value4{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 39%;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value5{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 45%;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#value6{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 49.8%;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px; 
+    font-weight: bold;
+}
+#save{
+    width: 55px;
+    height: 35px;
+bottom: 45%;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+left: 7%;
+font-weight: bold;
+color: rgb(19, 39, 48);
+
+position: absolute;
+    
+}
+#run{
+    width: 55px;
+    height: 35px;
+bottom: 45%;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-weight: bold;
+color: rgb(19, 39, 48);
+
+position: absolute;
+    
+}
+

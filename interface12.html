@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSSinterface.css">
+<title>Robot</title>
+</head>
+<body >
+    <form action="insert.php" method="post">
+        <h1>Robot Interface</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJ-WGPiYg8WLr41d6Fe6sYbqnu7tQa4PrDg&usqp=CAU" style="max-width:100%;height:auto;">
+        <p >Engine 1 </p>
+<div  >
+    
+    <input type ="range" min="0" max="180" value="90" id="slider" name="slider">
+</div>
+<p>Engine 2</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider2" name="slider2">
+</div>
+<p>Engine 3</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider3" name="slider3">
+</div>
+<p>Engine 4</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider4" name="slider4">
+</div>
+<p>Engine 5</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider5" name="slider5">
+</div>
+<p>Engine 6</p>
+<div >
+    <input type ="range" min="0" max="180" value="90" id="slider6" name="slider6">
+</div>
+<div> 
+    <input type="submit" value="Save"  id="save" name="save">
+</div>
+<div> 
+    <input type="submit" value="Run" id="run" name="run">
+</div>
+
+    <div id="value"></div>
+    <div id="value2"></div>
+    <div id="value3"></div>
+    <div id="value4"></div>
+    <div id="value5"></div>
+    <div id="value6"></div>
+    
+
+<script>
+    
+   
+   
+    var slider =document.getElementById("slider")
+
+    value.innerHTML =slider.value;
+    value2.innerHTML =slider2.value;
+    value3.innerHTML =slider3.value;
+    value4.innerHTML =slider4.value;
+    value5.innerHTML =slider5.value;
+    value6.innerHTML =slider6.value;
+   slider.oninput =function(){
+    value.innerHTML =this.value;
+   }
+   slider2.oninput =function(){
+    value2.innerHTML =this.value;
+
+   }
+   slider3.oninput =function(){
+    value3.innerHTML =this.value;
+   }
+   slider4.oninput =function(){
+    value4.innerHTML =this.value;
+
+   }
+   slider5.oninput =function(){
+    value5.innerHTML =this.value;
+   }
+   slider6.oninput =function(){
+    value6.innerHTML =this.value;
+
+   }
+
+    
+   
+   
+</script>
+</form>
+
+</body>
+</html>
