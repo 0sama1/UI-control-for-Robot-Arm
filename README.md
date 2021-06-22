@@ -1,4 +1,4 @@
-# UI-control-for-Robot-Arm
+# UI-Control-For-Robot-Arm
 تم تصميم واجهة التحكم ب(HTML,CS,JS)
 
 ملفات الواجهة (inerface12.html,CSSinterface.css)
